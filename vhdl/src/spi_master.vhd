@@ -4,7 +4,7 @@ library ieee;
 
 entity SPI_MASTER is
     generic (
-        G_DATA_WIDTH : integer := 16; -- number of data bits per SPI transaction
+        G_DATA_WIDTH : integer := 16  -- number of data bits per SPI transaction
     );
     port (
         I_CLK   : in  std_logic;
